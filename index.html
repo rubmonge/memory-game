@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>memory test</title>      
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.19/dist/jquery.flip.min.js"></script>
+      <script src="assets/js/tmpl.js"></script>      
+      <script src="assets/js/memory-card.js"></script>      
+      <script src="assets/js/memory-game.js"></script>
+      <script src="assets/js/app.js"></script>
+      <link rel="stylesheet" type="text/css" href="assets/style.css"/>      
+   </head>
+   <body>
+      <article id="game">		
+         <section id="board">
+           
+         </section>
+      </article>	      
+      <script type="text/x-tmpl" id="tmpl-card">
+         <div class="card" id="{%=o.id%}"> 
+         <div class="card-front"> 
+         <img src="{%=o.frontImage%}" />
+         </div> 
+         <div class="card-back"> 
+         <img src="{%=o.backImage%}" />
+         </div> 
+         </div>
+      </script>
+   </body>    
+</html>
