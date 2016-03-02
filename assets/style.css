@@ -1,0 +1,21 @@
+body article#game {
+   width: 100%;
+   margin: 0 auto;
+}
+
+#board {	
+   width: 100%;
+}
+
+.card {
+   float:left;
+   width: 147px;
+   height: 226px;
+   margin: 1em;
+   cursor: pointer;
+}
+
+.card img {
+   display: block;
+   margin: 0 auto;	
+}
